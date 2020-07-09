@@ -1,0 +1,12 @@
+
+my_cash = a = 1000
+
+profit_rate = b = 0.07
+
+day = c = 7
+
+total_cash = t = a * (1 + b)**c # this is the formula of compaund interest
+
+print(t)
+
+output = 1605,78147647843
