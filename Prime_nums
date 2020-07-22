@@ -10,3 +10,18 @@ for i in range(a, n + 1):
        else:
            list_prime.append(i)
 print(f"The prime number lists = {list_prime}")
+
+
+
+#alternative_solution
+
+n = int(input("Enter the limit number:"))
+prime = []
+for num in range(2, n+1):
+    status = True
+    for i in range(2, num):
+        if num % i == 0:
+            status = False
+    if status:
+        prime.append(num)
+print(prime)
